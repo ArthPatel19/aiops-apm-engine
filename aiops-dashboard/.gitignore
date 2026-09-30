@@ -1,0 +1,23 @@
+# Flutter/Dart tooling
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+*.iml
+*.g.dart
+
+# Build output only - platform folders themselves (android/, ios/, web/...)
+# ARE committed, so the repo runs immediately after `flutter pub get`.
+build/
+android/.gradle/
+android/app/build/
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# IDE
+.idea/
+.vscode/
